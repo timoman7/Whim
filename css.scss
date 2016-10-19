@@ -60,9 +60,3 @@ section.dark {
     @include gradient-text('radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670)', 'dark');
   }
 }
-.centerText{
-  text-align:center;
-}
-.q{
-  outlineColor:green;
-}
