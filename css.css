@@ -38,6 +38,7 @@ link{
 
 .logo{
   background: #eee;
+  color:red;
   @include gradient-text('linear-gradient(to right,red,purple,blue,green)', 'light');
 }
 .q{
