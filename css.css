@@ -20,7 +20,7 @@ section.light {
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: linear-gradient(to right, red, purple, blue, green, yellow, orange);
+		background: url('http://vignette1.wikia.nocookie.net/mugen-souls/images/e/ec/Mugen_Souls_Z_outer_space_02.png/revision/latest?cb=20140325230211');
 		pointer-events: none;
 	}
 
