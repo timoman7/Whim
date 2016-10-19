@@ -1,11 +1,22 @@
 .w,.h,.i{
 float:left;
 }
-.w{
-color: linear-gradient(red,yellow,blue,green);
-}
-.h{
-color:green;
+.w,.h,.i,.m{
+  
+  /* if we can clip, do it */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  /* what will show through the text
+      ~ or ~
+     what will be the background of that element */
+  background: linear-gradient(to right,red, yellow, green, blue);
+
+  /* fallback text color
+      ~ or ~
+     the actual color of text, so it better work on the background */
+  color: red;
+ 
 }
 .q{
 outlineColor:green;
