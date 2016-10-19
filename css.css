@@ -8,6 +8,7 @@ section.light {
 		color: #000;
 		background: #fff;
 		mix-blend-mode: multiply;
+		font-size: 20px;
 	}
 
 	section.light .gradient1::before {
