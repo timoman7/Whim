@@ -1,7 +1,7 @@
 .logo{
   /* if we can clip, do it */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: logo;
 
   /* what will show through the text
       ~ or ~
