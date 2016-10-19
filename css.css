@@ -38,7 +38,8 @@
   width:auto;
 
   .gradient1 {
-    @import gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
+    @include gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
+    gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
   }
 }
 .q{
