@@ -1,8 +1,7 @@
 .logo{
-  
   /* if we can clip, do it */
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: logo;
 
   /* what will show through the text
       ~ or ~
@@ -13,7 +12,6 @@
       ~ or ~
      the actual color of text, so it better work on the background */
   color: red;
- 
 }
 .q{
 outlineColor:green;
