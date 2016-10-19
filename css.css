@@ -2,7 +2,7 @@
 float:left;
 }
 .w{
-color: rgb(calc(Math.round(Math.random(0,255))),calc(Math.round(Math.random(0,255))),calc(Math.round(Math.random(0,255))));
+color: linear-gradient(red,yellow,blue,green);
 }
 .h{
 color:green;
