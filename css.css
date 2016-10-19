@@ -36,9 +36,16 @@ link{
   }
 }
 
-.logo{
+div.light {
   background: #eee;
-  @include gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
+
+  .gradient1 {
+    @include gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
+  }
+  
+  .gradient2 {    
+    @include gradient-text('radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
+  }
 }
 .q{
 outlineColor:green;
