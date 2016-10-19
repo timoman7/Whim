@@ -32,15 +32,36 @@
     }
   }
 }
-.centerText{
-  text-align:center;
-}
-.light {
+
+section.light {
   background: #eee;
-  width:auto;
+
   .gradient1 {
     @include gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
   }
+  
+  .gradient2 {    
+    @include gradient-text('radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670)', 'light');
+  }
+}
+
+section.dark {
+  background: #222;
+  
+  .gradient1 {
+    color: #fff; // Fallback color
+    
+    @include gradient-text('linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670)', 'dark');
+  }
+  
+  .gradient2 {
+    color: #fff;
+    
+    @include gradient-text('radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670)', 'dark');
+  }
+}
+.centerText{
+  text-align:center;
 }
 .q{
   outlineColor:green;
