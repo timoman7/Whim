@@ -1,7 +1,4 @@
-.w,.h,.i{
-float:left;
-}
-.w,.h,.i,.m{
+.logo{
   
   /* if we can clip, do it */
   -webkit-text-fill-color: transparent;
