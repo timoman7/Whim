@@ -1,125 +1,125 @@
-section.light {
-	background: #eee;
-}
-
-	section.light .gradient1 {
-		display: inline-block;
-		position: relative;
-		color: #000;
+	section.light {
 		background: #fff;
-		mix-blend-mode: multiply;
 	}
 
-	section.light .gradient1::before {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670);
-		pointer-events: none;
+		section.light.gradient1 {
+			display: inline-block;
+			position: relative;
+			color: #000;
+			background: #fff;
+			mix-blend-mode: multiply;
+		}
+
+		section.light.gradient1::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670);
+			pointer-events: none;
+		}
+
+		section.light .gradient1::before {
+			mix-blend-mode: screen;
+		}
+
+
+		section.light .gradient2 {
+			display: inline-block;
+			position: relative;
+			color: #000;
+			background: #fff;
+			mix-blend-mode: multiply;
+		}
+
+		section.light .gradient2::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+			pointer-events: none;
+		}
+
+		section.light .gradient2::before {
+			mix-blend-mode: screen;
+		}
+
+
+	section.dark {
+		background: #222;
 	}
-
-	section.light .gradient1::before {
-		mix-blend-mode: screen;
-	}
-
-
-	section.light .gradient2 {
-		display: inline-block;
-		position: relative;
-		color: #000;
-		background: #fff;
-		mix-blend-mode: multiply;
-	}
-
-	section.light .gradient2::before {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670);
-		pointer-events: none;
-	}
-
-	section.light .gradient2::before {
-		mix-blend-mode: screen;
-	}
-
-
-section.dark {
-	background: #222;
-}
-
-section.dark .gradient1 {
-	color: #fff;
-}
-
 
 	section.dark .gradient1 {
-		display: inline-block;
-		position: relative;
 		color: #fff;
-		background: #000;
-		mix-blend-mode: lighten;
-	}
-
-	section.dark .gradient1::before {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670);
-		pointer-events: none;
-	}
-
-	section.dark .gradient1::before {
-		mix-blend-mode: multiply;
 	}
 
 
-section.dark .gradient2 {
-	color: #fff;
-}
+		section.dark .gradient1 {
+			display: inline-block;
+			position: relative;
+			color: #fff;
+			background: #000;
+			mix-blend-mode: lighten;
+		}
+
+		section.dark .gradient1::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: linear-gradient(to right,#23966c, #faaa54, #e23b4a, #db0768, #360670);
+			pointer-events: none;
+		}
+
+		section.dark .gradient1::before {
+			mix-blend-mode: multiply;
+		}
 
 
 	section.dark .gradient2 {
-		display: inline-block;
-		position: relative;
 		color: #fff;
-		background: #000;
-		mix-blend-mode: lighten;
-	}
-
-	section.dark .gradient2::before {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670);
-		pointer-events: none;
-	}
-
-	section.dark .gradient2::before {
-		mix-blend-mode: multiply;
 	}
 
 
-.centerText {
-	text-align: center;
-}
+		section.dark .gradient2 {
+			display: inline-block;
+			position: relative;
+			color: #fff;
+			background: #000;
+			mix-blend-mode: lighten;
+		}
 
-.q {
-	outlineColor: green;
-}
+		section.dark .gradient2::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: radial-gradient(circle, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+			pointer-events: none;
+		}
+
+		section.dark .gradient2::before {
+			mix-blend-mode: multiply;
+		}
+
+
+	.centerText {
+		text-align: center;
+	}
+
+	.q {
+		outlineColor: green;
+	}
