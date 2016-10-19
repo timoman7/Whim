@@ -1,5 +1,11 @@
-.w,.h,.i,.m{
+.w,.h,.i{
 float:left;
+}
+.w{
+color: rgb(calc(Math.round(Math.random(0,255))),calc(Math.round(Math.random(0,255))),calc(Math.round(Math.random(0,255))));
+}
+.h{
+color:green;
 }
 .q{
 outlineColor:green;
