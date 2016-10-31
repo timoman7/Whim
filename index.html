@@ -2,6 +2,9 @@
 <html>
 <head>
 <title>Whim</title>
+</head>
+<body>
+<iframe src="main.html" sandbox="allow-popups allow-forms allow-pointer-lock allow-same-origin allow-scripts"></iframe>
   <script>
     var iframe = document.getElementsByTagName('iframe')[0];
 var url = iframe.src;
@@ -24,8 +27,5 @@ var loadHTML = function (html) {
 } 
 loadURL(iframe.src);
   </script>
-</head>
-<body>
-<iframe src="main.html" sandbox="allow-popups allow-forms allow-pointer-lock allow-same-origin allow-scripts"></iframe>
 </body>
 </html>
