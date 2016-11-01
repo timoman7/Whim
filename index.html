@@ -6,7 +6,9 @@
   <script type="text/javascript">
     if(window.AppInventor!==undefined){
     var appt=document.getElementById('apptest');
-      appt.innerHTML=window.AppInventor;
+      for(var i in window.AppInventor){
+        appt.innerHTML+=i+":"+window.AppInventor[i]+"\n";
+      }
     }
   </script>
 </head>
