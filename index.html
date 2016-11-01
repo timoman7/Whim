@@ -5,9 +5,8 @@
 <link rel="stylesheet" type="text/css" href="css.css"/>
   <script type="text/javascript">
     if(window.AppInventor!==undefined){
-    var appt=document.getElementById('apptest');
       for(var i in window.AppInventor){
-        appt.innerHTML+=i+"\n";
+        document.write(i);
       }
     }
   </script>
@@ -24,8 +23,6 @@ Whim
 <input type="submit" value="Google Search"/>
 <input type="hidden" name="sitesearch" value=""/>
 </form>
-  <p id="apptest">
-  </p>
 </div>
 </body>
 </html>
