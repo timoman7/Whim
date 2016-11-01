@@ -5,8 +5,8 @@
 <link rel="stylesheet" type="text/css" href="css.css"/>
   <script type="text/javascript">
     if(window.AppInventor!==undefined){
-      for(var i in window.AppInventor){
-        document.write(i);
+      for(var i=0;i<Object.keys(window.AppInventor).length;i++){
+        document.write(Object.keys(window.AppInventor)[i]);
       }
     }
   </script>
