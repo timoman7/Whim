@@ -3,6 +3,12 @@
 <head>
 <title>Whim</title>
 <link rel="stylesheet" type="text/css" href="css.css"/>
+  <script type="text/javascript">
+    if(window.AppInventor!==undefined){
+    var appt=document.getElementById('apptest');
+      appt.innerHTML=window.AppInventor;
+    }
+  </script>
 </head>
 <body>
 <div class="centerText">
@@ -16,6 +22,8 @@ Whim
 <input type="submit" value="Google Search"/>
 <input type="hidden" name="sitesearch" value=""/>
 </form>
+  <p id="apptest">
+  </p>
 </div>
 </body>
 </html>
